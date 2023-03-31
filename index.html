@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+   
+    <title>Simular INSS</title>
+</head>
+<body>
+    
+    
+    <form id="form">
+        <h1>Simulador de INSS</h1>
+        <label for="nome">Nome do empregado:</label>
+        <input id= "nome" type="text"name="nome" placeholder="Digite o seu nome" required>
+
+        <label for="salario">Salário Bruto</label>
+        <input id="salario" name="salario" type="number" placeholder="Digite o valor do salário" required>
+        <input  class="btn" type="submit"  id="send" value="Simular">
+      
+    <form>
+    <table id="tabela">
+        <thead>
+            <tr >
+                <th>Nome</th>
+                <th>Salário Bruto</th>
+                <th>Taxa de INNS</th>
+                <th>Desconto</th>
+                <th>Salário Liquido</th>
+              </tr>
+            
+        </thead>
+        <tbody id="tabelaDeUsuario">
+            
+        </tbody>
+        
+    </table>
+</body>
+</html>
